@@ -18,16 +18,18 @@ header {
 /* Create two columns/boxes that floats next to each other */
 nav {
     float: left;
-    width: 30%;
-    height: 300px; /* only for demonstration, should be removed */
-    background: #ccc;
+    width: 28%;
+    height: 500px; /* only for demonstration, should be removed */
+    background: #2468;
     padding: 20px;
 }
 
 /* Style the list inside the menu */
 nav ul {
+	
     list-style-type: none;
     padding: 0;
+	
 }
 
 article {
@@ -43,12 +45,13 @@ section:after {
     content: "";
     display: table;
     clear: both;
+	text-align: center;
 }
 
 /* Style the footer */
 footer {
-    background-color: #777;
-    padding: 10px;
+    background-color: #000000;
+    padding: 30px;
     text-align: center;
     color: white;
 }
